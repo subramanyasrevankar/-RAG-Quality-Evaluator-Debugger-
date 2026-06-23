@@ -1,3 +1,4 @@
+
 def chunk_document(text: str, chunk_size: int = 500, overlap: int = 50) -> list[str]:
     """
     Splits a document into overlapping chunks.
